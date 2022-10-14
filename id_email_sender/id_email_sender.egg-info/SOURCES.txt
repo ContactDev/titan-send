@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+VERSION
+requirements.txt
+setup.py
+id_email_sender/__init__.py
+id_email_sender/__main__.py
+id_email_sender/bot.py
+id_email_sender.egg-info/PKG-INFO
+id_email_sender.egg-info/SOURCES.txt
+id_email_sender.egg-info/dependency_links.txt
+id_email_sender.egg-info/requires.txt
+id_email_sender.egg-info/top_level.txt
+id_email_sender/resources/start.png
