@@ -14,10 +14,11 @@ class Bot(DesktopBot):
             subject = str(tabela.loc[i, 'subject'])
             message = """Olá somos a ALELO e temos Novidades!!!
 
-Estamos próximos do Natal.Você já pensou em Motivar sua Equipe ?
-Conheça ALELO Natal,aquele Presentão que seu Time já está esperando.
-O Natal Está No Ar !! 
-Nós ALELO temos Vários Benefícios para sua Empresa, como Taxas e Condições Diferenciadas, que nós da CONTACT como Parceiros Exclusivo da ALELO, podemos oferecer.
+Estamos próximos do Natal.Você já pensou em transformar a expectativa do seu colaborador em realidade?
+
+Com o Cartão Natal, aceito em toda a MultiRede Alelo, sua equipe celebra o fim do ano do jeito que quiser: em restaurante, abastecendo o carro ou em supermercados.
+
+A ALELO possui vários Benefícios para a sua Empresa, como Taxas e Condições Diferenciadas, que nós da CONTACT, como Parceiro Exclusivo da ALELO, podemos oferecer.
 
 Faça uma Consulta e entre em Contato Conosco."""
         
