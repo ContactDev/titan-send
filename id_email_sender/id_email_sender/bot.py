@@ -12,7 +12,14 @@ class Bot(DesktopBot):
 
             email = str(tabela.loc[i, 'email'])
             subject = str(tabela.loc[i, 'subject'])
-            message = str(tabela.loc[i, 'message'])
+            message = """Olá somos a ALELO e temos Novidades!!!
+
+Estamos próximos do Natal.Você já pensou em Motivar sua Equipe ?
+Conheça ALELO Natal,aquele Presentão que seu Time já está esperando.
+O Natal Está No Ar !! 
+Nós ALELO temos Vários Benefícios para sua Empresa, como Taxas e Condições Diferenciadas, que nós da CONTACT como Parceiros Exclusivo da ALELO, podemos oferecer.
+
+Faça uma Consulta e entre em Contato Conosco."""
         
             print('====Inicio====')
             print(f'email: {email}')
