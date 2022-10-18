@@ -4,7 +4,7 @@ import pandas as pd
 class Bot(DesktopBot):
     def action(self, execution=None):
         
-        tabela = pd.read_excel(str(r'C:\Users\efranca\Documents\titan\id_email_sender\id_email_sender\database_gmail_sender.xlsx'), dtype=str)
+        tabela = pd.read_excel(str(r'C:\Users\efranca\Documents\titan\id_email_sender\id_email_sender\database_titan_email_sender.xlsx'), dtype=str)
 
         self.browse("https://titan.hostgator.com.br/mail/")
         
@@ -31,24 +31,24 @@ Faça uma Consulta e entre em Contato Conosco."""
             if self.find( "writtingFind", matching=0.97, waiting_time=30000):
                 self.not_found("writtingFind")
                 self.click()
-            self.sleep(1000)
+            self.wait(1000)
 
             if self.find( "newEmail", matching=0.97, waiting_time=10000):
                 self.not_found("newEmail")
 
             self.paste(email)
-            self.sleep(500)
+            self.wait(500)
             self.tab()
             self.paste(subject)
-            self.sleep(500)
+            self.wait(500)
             self.tab()
             self.paste(message)
-            self.sleep(500)
+            self.wait(500)
                        
             if self.find( "sendFind", matching=0.97, waiting_time=10000):
                 self.not_found("sendFind")
             self.click()
-            self.sleep(1440)
+            self.wait(1440)
 
         print('====Fim====')
             
